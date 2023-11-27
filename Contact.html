@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+
+    <link rel="stylesheet" href="contact.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <div class="container">
+        <div class="item">
+            <div class="contact">
+                <div class="first-text">Let's Get In Touch</div>
+                <img src="contact.png" alt="" class="image">
+                <div class="social-links">
+                    <span class="secnd-text">Social Link:</span>
+                    <ul class="social-media">
+                        <li><a href=""><i class="bx bxl-facebook"></i></a></li>
+                        <li><a href=""><i class="bx bxl-instagram"></i></a></li>
+                        <li><a href=""><i class="bx bx-mail-send"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="submit-form">
+                <h4 class="third-text text">Message Us</h4>
+                <form action="mailto:mjashley777@gmail.com" method="post" enctype="text/plain">
+                    <div class="input-box h">
+                        <input type="text" class="input" name="Name" id="name" required>
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="input-box h">
+                        <input type="email" class="input" name="Email" id="email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-box h">
+                        <input type="tel" class="input" name="Phone" id="phone" required pattern="^(09|\+639)\d{9}$" title="Please enter a valid Philippine phone number">                        <label for="phone">Phone</label>
+                    </div>
+                    <div class="input-box">
+                        <textarea name="Message" class="input" id="message" cols="30" rows="10" required></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <input type="submit" class="btn" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

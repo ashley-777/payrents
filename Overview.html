@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="canonical" href="https://https://demo.themesberg.com/landwind/" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landwind - Tailwind CSS Landing Page Demo</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="LineIcons.2.0.css" />
+    <link rel="stylesheet" href="animate.css" />
+    <link rel="stylesheet" href="tiny-slider.css" />
+    <link rel="stylesheet" href="glightbox.min.css" />
+    <link rel="stylesheet" href="index.css" />
+
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link href="overview1.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Initialize WOW.js
+            new WOW().init();
+
+            // Trigger WOW animations on specific elements
+            var elementsToAnimate = document.querySelectorAll('.wow');
+            elementsToAnimate.forEach(function(element) {
+                element.classList.add('animate__animated', 'animate__fadeIn'); // Add desired animation classes
+            });
+        });
+    </script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Initialize WOW.js
+        new WOW().init();
+
+        // Trigger WOW animations on specific elements
+        var elementsToAnimate = document.querySelectorAll('.wow-left');
+        elementsToAnimate.forEach(function(element) {
+            element.classList.add('animate__animated', 'animate__fadeInLeft'); // Add desired animation classes
+        });
+    });
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Initialize WOW.js
+        new WOW().init();
+
+        // Trigger WOW animations on specific elements
+        var elementsToAnimate = document.querySelectorAll('.wow-right');
+        elementsToAnimate.forEach(function(element) {
+            element.classList.add('animate__animated', 'animate__fadeInRight'); // Add desired animation classes
+        });
+    });
+</script>
+
+</head>
+<body>
+     <!-- Start block -->
+     <section class="bg-gray-50 dark:bg-gray-800">
+        <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
+            <!-- Row -->
+            <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
+                <div class="text-gray-500 sm:text-lg dark:text-gray-400 wow-left" data-wow-delay=".2s">
+                    <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">General Overview</h2>
+                    <p class="mb-8 font-light lg:text-xl">"Welcome to Payrents, your Android budgeting app transforming financial management. Explore Budgeting, Bills, Savings, Tips, Analytics, and our Loading Station for seamless payments. Achieve financial control effortlessly."</p>
+                    <!-- List -->
+                    <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
+                        <li class="flex space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Streamlined Budgeting
+                            </span>
+                        </li>
+                        <li class="flex space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Hassle-Free Payments</span>
+                        </li>
+                        <li class="flex space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Smart Analytics</span>
+                        </li>
+                    </ul>
+                    <p class="mb-8 font-light lg:text-xl">Experience effortless financial control with Payrents - streamlined budgeting, easy payments, and smart analytics in one app.</p>
+                </div>
+                <img class="feature_1 hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex wow" data-wow-delay=".4s" src="./Asset 5.png" alt="dashboard feature image">
+            </div>
+
+            <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
+                <img class="feature_2 hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex wow" data-wow-delay=".4s" src="Features Image.png" alt="feature image 2">
+                <div class="text-gray-500 sm:text-lg dark:text-gray-400 wow-right" data-wow-delay=".2s">
+                    <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Main Features Emphasis</h2>
+                    <p class="mb-8 font-light lg:text-xl">""Payrents: Six features, one solution. Budget, pay bills, save, get tips, analyze, and pay conveniently. Elevate your financial game with efficiency."</p>
+                   
+                    <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
+                        <li class="flex space-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Continuous Integration</span>
+                        </li>
+                        <li class="flex space-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Development Workflow
+                            </span>
+                        </li>
+                        <li class="flex space-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Knowledge Management
+                            </span>
+                    </ul>
+                    <p class="font-light lg:text-xl">Master financial efficiency with Payrents - continuous integration, streamlined workflow, and knowledge management at your fingertips.</p>
+                </div>
+            </div>
+            
+            <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
+                <div class="text-gray-500 sm:text-lg dark:text-gray-400 wow-left" data-wow-delay=".2s">
+                    <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Budgeting Education Tips</h2>
+                    <p class="mb-8 font-light lg:text-xl">"More than budgeting. Gain financial wisdom with curated tips on smart budgeting, savings, and savvy decision-making. Explore continuous knowledge management, empowering you with insights for a secure financial future."</p>
+                    <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
+                        <li class="flex space-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Streamlined Tips
+                            </span>
+                        </li>
+                        <li class="flex space-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Smart Savings
+                            </span>
+                        </li>
+                        <li class="flex space-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Continuous Knowledge
+                            </span>
+                        </li>
+                    </ul>
+                    <p class="mb-8 font-light lg:text-xl">Experience effortless financial control with Payrents - streamlined budgeting, easy payments, and smart analytics in one app.</p>
+                </div>
+                <img class="feature_3 hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex wow" data-wow-delay=".4s" src="Tips Image.png" alt="dashboard feature image">
+            </div> 
+            
+            <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
+                <img class="feature_4 hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex wow" data-wow-delay=".4s" src="Parental and gender neutral.png" alt="feature image 2">
+                <div class="text-gray-500 sm:text-lg dark:text-gray-400 wow-right" data-wow-delay=".2s">
+                    <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Parental Empowerment and Gender Neutrality</h2>
+                    <p class="mb-8 font-light lg:text-xl">"Join the revolution in parental empowerment with Payrents - the Android budgeting app for everyone. Embracing gender neutrality and equality, Payrents is more than just a tool for managing finances; it's a commitment to inclusive financial education. Navigate the world of budgeting, bills, savings, and analytics with ease, as we empower parents of all genders to take charge of their financial journey. Payrents: Where equality meets financial wisdom."</p>
+                    <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
+                        <li class="flex space-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Effortless Empowerment
+                            </span>
+                        </li>
+                        <li class="flex space-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Inclusive Budgeting
+                            </span>
+                        </li>
+                        <li class="flex space-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Gender-Neutral Finance
+                            </span>
+                        </li>
+                    </ul>
+                    <p class="font-light lg:text-xl">Empower effortlessly with Payrents - inclusive budgeting, gender-neutral finance, your partner in financial empowerment.</p>
+                </div>
+            </div>
+        </div>
+      </section> 
+    <!-- End block -->
+
+        <!-- ========================= JS here ========================= -->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/tiny-slider.js"></script>
+        <script src="assets/js/glightbox.min.js"></script>
+        <script src="assets/js/count-up.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+
+
+</body>
+</html>
